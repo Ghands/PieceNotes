@@ -7,7 +7,9 @@
   <meta name="description" content="Home for Zhenhao's Notes.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="elements/css/gitalk.css">
 </head>
+
 <body>
   <div id="app"></div>
   <script>
@@ -43,17 +45,31 @@
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 
+  <!-- gitalk 评论功能 -->
+  <script src="elements/js/plugin-gitalk.min.js"></script>
+  <script src="elements/js/dist-gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: 'ba851f9e45507adedbad',
+      clientSecret: '80d262d037c6f19a94c177d3b75ba27633fbbfb3',
+      repo: 'PieceNotes',
+      owner: 'Ghands',
+      admin: ['Ghands'],
+      distractionFreeMode: false
+    })
+  </script>
+
   <!-- 插入自定义插件 -->
-  <script src="guide/js/docsify.min.js"></script>
-  <script src="guide/js/search.min.js"></script>
-  <script src="guide/js/prism-java.min.js"></script>
-  <script src="guide/js/emoji.min.js"></script>
-  <script src="guide/js/zoom-image.min.js"></script>
-  <script src="guide/js/docsify-copy-code.js"></script>
-  <script src="guide/js/docsify-sidebar-collapse.min.js"></script>
-  <script src="guide/js/docsify-plugin-flexible-alerts.js"></script>
-  <script src="guide/js/vanilla-back-to-top.min.js"></script>
-  <script src="guide/js/docsify-darklight-theme.js"></script>
+  <script src="elements/js/docsify.min.js"></script>
+  <script src="elements/js/search.min.js"></script>
+  <script src="elements/js/prism-java.min.js"></script>
+  <script src="elements/js/emoji.min.js"></script>
+  <script src="elements/js/zoom-image.min.js"></script>
+  <script src="elements/js/docsify-copy-code.js"></script>
+  <script src="elements/js/docsify-sidebar-collapse.min.js"></script>
+  <script src="elements/js/docsify-plugin-flexible-alerts.js"></script>
+  <script src="elements/js/vanilla-back-to-top.min.js"></script>
+  <script src="elements/js/docsify-darklight-theme.js"></script>
 
   <!-- 支持数学公式 -->
   <script type="text/x-mathjax-config">
