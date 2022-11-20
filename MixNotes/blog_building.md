@@ -6,7 +6,7 @@ author: Zhenhao Wu
 keywords: 
     - website
 ---
-；
+
 本站建设主要依赖以下工具：
 - 网页发布：[GitHub Pages](https://pages.github.com)
 - 网页框架：[Docsify](https://docsify.js.org)
@@ -20,8 +20,8 @@ GitHub Pages 是 GitHub 方便开源项目建设主页所提供的功能，无�
 - 搭建之后只需要专注于内容更新，系统维护、文件存储等事情都由 GitHub 处理。
 
 当然，GitHub Pages 也存在不影响大局的缺点：
-- 相关 repo 必须是 public 的；
-- 必须要熟悉 git 的相关操作。
+- 相关 repo 必须是 `public` 的；
+- 必须要熟悉 `git` 的相关操作。
 
 GitHub Pages 的操作非常简单，主要分为以下步骤：
 1. 在 GitHub 上创建一个属性为公开的仓库；
