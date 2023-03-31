@@ -7,7 +7,8 @@
   <meta name="description" content="Home for Zhenhao's Notes.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="elements/css/gitalk.css">
+  <!-- <link rel="stylesheet" href="elements/css/gitalk.css"> -->
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 </head>
 
 <body>
@@ -46,8 +47,10 @@
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> -->
 
   <!-- gitalk 评论功能 -->
-  <script src="elements/js/plugin-gitalk.min.js"></script>
-  <script src="elements/js/dist-gitalk.min.js"></script>
+  <!-- <script src="elements/js/plugin-gitalk.min.js"></script>
+  <script src="elements/js/dist-gitalk.min.js"></script> -->
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <script>
     const gitalk = new Gitalk({
       clientID: 'ba851f9e45507adedbad',
