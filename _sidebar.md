@@ -2,7 +2,9 @@
 
 - [首页](README.md)
 - [读书摘抄](BookNotes/README.md)
+    - [置身事内](BookNotes/置身事内.md)
 - [随想随摘](IdeaNotes/README.md)
+    - [论“比学赶超”](IdeaNotes/论“比学赶超”.md)
 - [工作笔记](NewField/README.md)
     - [从论文写作到公文写作](NewField/from_paper_to_offical_doc.md)
 - [零碎记录](MixNotes/README.md)
